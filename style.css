@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+  font-weight: 200
+}
+
+@font-face {
+  font-family: 'Roboto Thin';
+  src: url('fonts/Roboto/Roboto-LightItalic.ttf') format('truetype');
+  font-weight: 200
+}
+
+html, body { height: 100%; width: 100%; padding: 0; margin: 0; font-family: "Roboto"; color: #FFF }
+header { background-color: #1F2937; margin: 0; padding: 0 }
+header .container { width: 70%; margin: 0 auto; display: flex; justify-content: space-between }
+header h1 { margin: 1rem 1rem 1rem 0; font-size: 24px; color: #F9FAF8 }
+header ul { height: 24px; line-height: 44px; display: flex; list-style-type: none; margin: 0; padding: 0 }
+header li { margin: 0 0 0 2rem; padding: 0 }
+header li:first-of-type { margin: 0 }
+header a { font-size: 14px; text-decoration: none; color: #E5E7EB }
+
+.feature { background-color: #1F2937; padding: 4rem 0 }
+.feature .container { width: 70%; margin: 0 auto; display: flex }
+.feature .text { width: 60% }
+.feature .image { width: 40% }
+.feature .image .placeholder { height: 12rem; font-size: 12px; color: rgba(255, 255, 255, 0.5); background-color: rgba(255, 255, 255, 0.25); display: flex; justify-content: center; align-items: center }
+.feature h1 { font-size: 48px; margin: 0; padding: 0 2rem 0 0; font-weight: 900; color: #F9FAF8 }
+.feature p { margin: 0 0 1rem 0; padding: 0 2rem 0 0; font-size: 18px; color: #E5E7EB }
+.feature button { background-color: #3882F6; border-radius: 0.5rem; padding: 4px 24px; border: none; color: #FFF; font-weight: bold }
+
+.information { color: #1F2937; padding: 2rem 0 4rem 0 }
+.information .container { width: 70%; margin: 0 auto; display: flex; flex-direction: column; align-items: center }
+.information ul { list-style-type: none; margin: 2rem 0 0 0; padding: 0; display: flex }
+.information li { text-align: center; margin: 0 2rem 0 0; padding: 0; font-size: 0.75rem; color: #1F2937 }
+.information .image { margin: 0 auto; width: 8rem; height: 8rem; border: solid #3882F6; border-radius: 0.5rem }
+.information .text { font-size: 14px; display: block; padding: 0.5rem 0.25rem 0 0.25rem; opacity: 0.8 }
+
+.quote { background-color: #E5E7EB; padding: 4rem 0; margin-bottom: 4rem }
+.quote .container { width: 70%; margin: 0 auto }
+.quote blockquote { padding: 0 4rem; color: #1F2937; font-family: "Roboto Thin" }
+.quote blockquote p { line-height: 40px; font-size: 36px; opacity: 0.75; }
+.quote blockquote footer { font-weight: bold; font-size: 18px; text-align: right; font-family: "Roboto"; margin-right: 4rem }
+
+.action { margin-bottom: 8rem }
+.action .container { border-radius: 1rem; background-color: #3882F6; width: 70%; margin: 0 auto }
+.action .contents { padding: 2rem 8rem; display: flex; justify-content: space-between }
+.action .call { color: #FFF }
+.action h2,
+.action p { margin: 0; padding: 0 }
+.action h2 { font-size: 1rem }
+.action p { font-size: 0.8rem }
+.action .trigger { text-align: right }
+.action button { font-size: 18px; border: solid white; background-color: transparent; border-radius: 0.5rem; color: white; padding: 4px 24px }
